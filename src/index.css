@@ -26,6 +26,13 @@ code {
   animation-fill-mode: forwards;
 }
 
+.clip-trapezoid {
+    clip-path: polygon(0 0, 76% 0, 100% 100%, 23% 100%);
+  }
+.clip-trapezoid-rev {
+    clip-path:polygon(22% 1%, 100% 0, 80% 100%, 0 100%);
+  }
+
 @keyframes shake {
   0% { transform: translateX(0%)};
   25% { transform: translateX(-10%)};
